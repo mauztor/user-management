@@ -4,7 +4,6 @@ namespace mauztor\modules\UserManagement\controllers;
 use Yii;
 use yii\data\ActiveDataProvider;
 use yii\db\ActiveRecord;
-use yii\web\Cookie;
 use yii\web\NotFoundHttpException;
 
 class AdminDefaultController extends BaseController
@@ -252,23 +251,6 @@ class AdminDefaultController extends BaseController
 		}
 	}
 
-
-	/**
-	 * Set page size for grid
-	 */
-	public function actionGridPageSize()
-	{
-		if ( Yii::$app->request->post('grid-page-size') )
-		{
-			$cookie = new Cookie([
-				'name' => '_grid_page_size',
-				'value' => Yii::$app->request->post('grid-page-size'),
-				'expire' => time() + 86400 * 365, // 1 year
-			]);
-
-			Yii::$app->response->cookies->add($cookie);
-		}
-	}
 
 	/**
 	 * Finds the model based on its primary key value.

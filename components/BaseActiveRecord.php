@@ -4,7 +4,6 @@ namespace mauztor\modules\UserManagement\components;
 use mauztor\modules\UserManagement\helpers\LittleBigHelper;
 use yii\caching\TagDependency;
 use yii\db\ActiveRecord;
-use yii\db\BaseActiveRecord;
 use yii\db\Query;
 use yii\helpers\StringHelper;
 use yii\validators\Validator;

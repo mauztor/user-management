@@ -90,7 +90,7 @@ $this->params['breadcrumbs'][] = $this->title;
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<strong>
-					<span class="glyphicon glyphicon-th"></span> Routes
+					<span class="glyphicon glyphicon-th"></span> <?= UserManagementModule::t('back', 'Routes') ?>
 
 					<?= Html::a(
 						UserManagementModule::t('back', 'Refresh routes (and delete unused)'),
