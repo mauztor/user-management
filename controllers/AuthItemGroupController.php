@@ -4,8 +4,6 @@ namespace mauztor\modules\UserManagement\controllers;
 
 use mauztor\modules\UserManagement\models\rbacDB\AuthItemGroup;
 use mauztor\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
-use Yii;
-use webvimark\components\AdminDefaultController;
 
 /**
  * AuthItemGroupController implements the CRUD actions for AuthItemGroup model.

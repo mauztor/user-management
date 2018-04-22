@@ -2,7 +2,6 @@
 
 namespace mauztor\modules\UserManagement\controllers;
 
-use webvimark\components\BaseController;
 use mauztor\modules\UserManagement\models\rbacDB\Permission;
 use mauztor\modules\UserManagement\models\rbacDB\Role;
 use mauztor\modules\UserManagement\models\User;

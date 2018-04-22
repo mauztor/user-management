@@ -3,9 +3,9 @@
 namespace mauztor\modules\UserManagement\models;
 
 use Ikimea\Browser\Browser;
+use mauztor\modules\UserManagement\helpers\LittleBigHelper;
 use mauztor\modules\UserManagement\UserManagementModule;
 use webvimark\components\BaseActiveRecord;
-use webvimark\helpers\LittleBigHelper;
 use Yii;
 use yii\db\ActiveQuery;
 

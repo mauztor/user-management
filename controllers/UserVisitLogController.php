@@ -2,10 +2,8 @@
 
 namespace mauztor\modules\UserManagement\controllers;
 
-use Yii;
-use mauztor\modules\UserManagement\models\UserVisitLog;
 use mauztor\modules\UserManagement\models\search\UserVisitLogSearch;
-use webvimark\components\AdminDefaultController;
+use mauztor\modules\UserManagement\models\UserVisitLog;
 
 /**
  * UserVisitLogController implements the CRUD actions for UserVisitLog model.

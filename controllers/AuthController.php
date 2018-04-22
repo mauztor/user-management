@@ -2,7 +2,6 @@
 
 namespace mauztor\modules\UserManagement\controllers;
 
-use webvimark\components\BaseController;
 use mauztor\modules\UserManagement\components\UserAuthEvent;
 use mauztor\modules\UserManagement\models\forms\ChangeOwnPasswordForm;
 use mauztor\modules\UserManagement\models\forms\ConfirmEmailForm;

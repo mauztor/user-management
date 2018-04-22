@@ -2,7 +2,6 @@
 
 namespace mauztor\modules\UserManagement\controllers;
 
-use webvimark\components\AdminDefaultController;
 use Yii;
 use mauztor\modules\UserManagement\models\User;
 use mauztor\modules\UserManagement\models\search\UserSearch;

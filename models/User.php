@@ -2,15 +2,17 @@
 
 namespace mauztor\modules\UserManagement\models;
 
-use webvimark\helpers\LittleBigHelper;
-use webvimark\helpers\Singleton;
+use Exception;
 use mauztor\modules\UserManagement\components\AuthHelper;
 use mauztor\modules\UserManagement\components\UserIdentity;
+use mauztor\modules\UserManagement\helpers\LittleBigHelper;
+use mauztor\modules\UserManagement\helpers\Singleton;
 use mauztor\modules\UserManagement\models\rbacDB\Role;
 use mauztor\modules\UserManagement\models\rbacDB\Route;
 use mauztor\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\behaviors\TimestampBehavior;
+use yii\db\ActiveQuery;
 
 /**
  * This is the model class for table "user".
@@ -99,7 +101,7 @@ class User extends UserIdentity
 
 			return true;
 		}
-		catch (\Exception $e)
+		catch (Exception $e)
 		{
 			return false;
 		}
@@ -333,7 +335,7 @@ class User extends UserIdentity
 	}
 
 	/**
-	 * @return \yii\db\ActiveQuery
+	 * @return ActiveQuery
 	 */
 	public function getRoles()
 	{

@@ -1,8 +1,8 @@
 <?php
 namespace mauztor\modules\UserManagement\components;
 
+use mauztor\modules\UserManagement\models\User;
 use yii\helpers\Html;
-use yii\web\User;
 /**
  * @var $this yii\web\View
  */

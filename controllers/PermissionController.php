@@ -8,7 +8,6 @@ use mauztor\modules\UserManagement\models\rbacDB\AbstractItem;
 use mauztor\modules\UserManagement\models\rbacDB\Permission;
 use mauztor\modules\UserManagement\models\rbacDB\Route;
 use mauztor\modules\UserManagement\models\rbacDB\search\PermissionSearch;
-use webvimark\components\AdminDefaultController;
 use mauztor\modules\UserManagement\UserManagementModule;
 use Yii;
 

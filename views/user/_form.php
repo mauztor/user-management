@@ -2,14 +2,14 @@
 
 use mauztor\modules\UserManagement\models\User;
 use mauztor\modules\UserManagement\UserManagementModule;
-use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use webvimark\extensions\BootstrapSwitch\BootstrapSwitch;
+use yii\helpers\Html;
+use yii\web\View;
 
 /**
- * @var yii\web\View $this
- * @var mauztor\modules\UserManagement\models\User $model
- * @var yii\bootstrap\ActiveForm $form
+ * @var View $this
+ * @var User $model
+ * @var ActiveForm $form
  */
 ?>
 
@@ -70,4 +70,3 @@ use webvimark\extensions\BootstrapSwitch\BootstrapSwitch;
 
 </div>
 
-<?php BootstrapSwitch::widget() ?>

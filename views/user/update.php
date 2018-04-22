@@ -1,14 +1,12 @@
 <?php
 
 use mauztor\modules\UserManagement\models\User;
-use webvimark\extensions\BootstrapSwitch\BootstrapSwitch;
 use mauztor\modules\UserManagement\UserManagementModule;
-use yii\bootstrap\ActiveForm;
-use yii\helpers\Html;
+use yii\web\View;
 
 /**
- * @var yii\web\View $this
- * @var mauztor\modules\UserManagement\models\User $model
+ * @var View $this
+ * @var User $model
  */
 
 $this->title = UserManagementModule::t('back', 'Editing user: ') . ' ' . $model->username;

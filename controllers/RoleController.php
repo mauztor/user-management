@@ -6,7 +6,6 @@ use mauztor\modules\UserManagement\components\AuthHelper;
 use mauztor\modules\UserManagement\models\rbacDB\Permission;
 use mauztor\modules\UserManagement\models\rbacDB\Role;
 use mauztor\modules\UserManagement\models\rbacDB\search\RoleSearch;
-use webvimark\components\AdminDefaultController;
 use mauztor\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\rbac\DbManager;
