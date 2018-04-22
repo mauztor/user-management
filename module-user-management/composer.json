@@ -1,0 +1,16 @@
+{
+    "name": "mauztor/module-user-management",
+    "description": "User with improved RBAC",
+    "type": "yii2-extension",
+    "autoload": {
+        "psr-4": {
+            "mauztor\\modules\\UserManagement\\": ""
+        }
+    },
+    "require": {
+        "ikimea/browser": "1.12.0",
+        "webvimark/date-range-picker": "^1.0.0",
+        "webvimark/grid-bulk-actions": "^1.0.0",
+        "webvimark/grid-page-size": "^1.0.0"
+    }
+}
