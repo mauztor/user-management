@@ -1,10 +1,12 @@
 <?php
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use mauztor\modules\UserManagement\models\User;
+use mauztor\modules\UserManagement\UserManagementModule;
+use yii\web\View;
 
 /**
- * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\User $user
+ * @var View $this
+ * @var User $user
  */
 
 $this->title = UserManagementModule::t('front', 'Registration - confirm your e-mail');

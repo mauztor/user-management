@@ -1,11 +1,11 @@
 <?php
 /**
  * @var yii\widgets\ActiveForm $form
- * @var webvimark\modules\UserManagement\models\rbacDB\Permission $model
+ * @var mauztor\modules\UserManagement\models\rbacDB\Permission $model
  */
 
-use webvimark\modules\UserManagement\models\rbacDB\AuthItemGroup;
-use webvimark\modules\UserManagement\UserManagementModule;
+use mauztor\modules\UserManagement\models\rbacDB\AuthItemGroup;
+use mauztor\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;

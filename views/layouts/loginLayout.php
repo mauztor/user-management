@@ -1,10 +1,11 @@
 <?php
-use app\assets\AppAsset;
-use webvimark\modules\UserManagement\UserManagementModule;
+
+use mauztor\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\BootstrapAsset;
 use yii\helpers\Html;
+use yii\web\View;
 
-/* @var $this \yii\web\View */
+/* @var $this View */
 /* @var $content string */
 
 $this->title = UserManagementModule::t('front', 'Authorization');

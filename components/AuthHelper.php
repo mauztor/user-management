@@ -1,11 +1,11 @@
 <?php
 
-namespace webvimark\modules\UserManagement\components;
+namespace mauztor\modules\UserManagement\components;
 
-use webvimark\modules\UserManagement\models\rbacDB\AbstractItem;
-use webvimark\modules\UserManagement\models\rbacDB\Permission;
-use webvimark\modules\UserManagement\models\rbacDB\Role;
-use webvimark\modules\UserManagement\models\rbacDB\Route;
+use mauztor\modules\UserManagement\models\rbacDB\AbstractItem;
+use mauztor\modules\UserManagement\models\rbacDB\Permission;
+use mauztor\modules\UserManagement\models\rbacDB\Role;
+use mauztor\modules\UserManagement\models\rbacDB\Route;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\helpers\Inflector;
@@ -23,7 +23,7 @@ class AuthHelper
 	/**
 	 * Example how to handle layouts from config file
 	 *
-	 * 'on beforeAction'=>['webvimark\modules\UserManagement\components\AuthHelper', 'layoutHandler'],
+	 * 'on beforeAction'=>['mauztor\modules\UserManagement\components\AuthHelper', 'layoutHandler'],
 	 *
 	 * @param \yii\base\ActionEvent $event
 	 */

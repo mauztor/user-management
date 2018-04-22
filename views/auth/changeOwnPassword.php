@@ -1,12 +1,14 @@
 <?php
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use mauztor\modules\UserManagement\models\forms\ChangeOwnPasswordForm;
+use mauztor\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
+use yii\web\View;
 
 /**
- * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\forms\ChangeOwnPasswordForm $model
+ * @var View $this
+ * @var ChangeOwnPasswordForm $model
  */
 
 $this->title = UserManagementModule::t('back', 'Change own password');

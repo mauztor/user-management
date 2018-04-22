@@ -1,14 +1,14 @@
 <?php
 
-namespace webvimark\modules\UserManagement\models;
+namespace mauztor\modules\UserManagement\models;
 
 use webvimark\helpers\LittleBigHelper;
 use webvimark\helpers\Singleton;
-use webvimark\modules\UserManagement\components\AuthHelper;
-use webvimark\modules\UserManagement\components\UserIdentity;
-use webvimark\modules\UserManagement\models\rbacDB\Role;
-use webvimark\modules\UserManagement\models\rbacDB\Route;
-use webvimark\modules\UserManagement\UserManagementModule;
+use mauztor\modules\UserManagement\components\AuthHelper;
+use mauztor\modules\UserManagement\components\UserIdentity;
+use mauztor\modules\UserManagement\models\rbacDB\Role;
+use mauztor\modules\UserManagement\models\rbacDB\Route;
+use mauztor\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 

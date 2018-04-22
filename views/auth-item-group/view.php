@@ -1,12 +1,14 @@
 <?php
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use mauztor\modules\UserManagement\models\rbacDB\AuthItemGroup;
+use mauztor\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
+use yii\web\View;
 use yii\widgets\DetailView;
 
 /**
- * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\rbacDB\AuthItemGroup $model
+ * @var View $this
+ * @var AuthItemGroup $model
  */
 
 $this->title = $model->name;

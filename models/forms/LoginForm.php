@@ -1,11 +1,11 @@
 <?php
-namespace webvimark\modules\UserManagement\models\forms;
+namespace mauztor\modules\UserManagement\models\forms;
 
+use mauztor\modules\UserManagement\models\User;
+use mauztor\modules\UserManagement\UserManagementModule;
 use webvimark\helpers\LittleBigHelper;
-use webvimark\modules\UserManagement\models\User;
-use webvimark\modules\UserManagement\UserManagementModule;
-use yii\base\Model;
 use Yii;
+use yii\base\Model;
 
 class LoginForm extends Model
 {

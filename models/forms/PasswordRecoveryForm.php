@@ -1,10 +1,10 @@
 <?php
-namespace webvimark\modules\UserManagement\models\forms;
+namespace mauztor\modules\UserManagement\models\forms;
 
-use webvimark\modules\UserManagement\models\User;
-use webvimark\modules\UserManagement\UserManagementModule;
-use yii\base\Model;
+use mauztor\modules\UserManagement\models\User;
+use mauztor\modules\UserManagement\UserManagementModule;
 use Yii;
+use yii\base\Model;
 
 class PasswordRecoveryForm extends Model
 {

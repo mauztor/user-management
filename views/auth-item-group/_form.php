@@ -1,12 +1,12 @@
 <?php
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use mauztor\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\rbacDB\AuthItemGroup $model
+ * @var mauztor\modules\UserManagement\models\rbacDB\AuthItemGroup $model
  * @var yii\bootstrap\ActiveForm $form
  */
 ?>

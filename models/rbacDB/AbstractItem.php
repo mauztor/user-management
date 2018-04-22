@@ -1,9 +1,9 @@
 <?php
-namespace webvimark\modules\UserManagement\models\rbacDB;
+namespace mauztor\modules\UserManagement\models\rbacDB;
 
-use webvimark\modules\UserManagement\components\AuthHelper;
-use webvimark\modules\UserManagement\components\AbstractItemEvent;
-use webvimark\modules\UserManagement\UserManagementModule;
+use mauztor\modules\UserManagement\components\AuthHelper;
+use mauztor\modules\UserManagement\components\AbstractItemEvent;
+use mauztor\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\base\Event;
 use yii\base\ModelEvent;

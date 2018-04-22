@@ -1,19 +1,21 @@
 <?php
 
-use webvimark\modules\UserManagement\components\GhostHtml;
-use webvimark\modules\UserManagement\UserManagementModule;
-use yii\helpers\Html;
-use yii\helpers\Url;
-use yii\helpers\ArrayHelper;
-use yii\widgets\Pjax;
+use mauztor\modules\UserManagement\components\GhostHtml;
+use mauztor\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
+use mauztor\modules\UserManagement\UserManagementModule;
 use webvimark\extensions\GridBulkActions\GridBulkActions;
 use webvimark\extensions\GridPageSize\GridPageSize;
+use yii\data\ActiveDataProvider;
 use yii\grid\GridView;
+use yii\helpers\Html;
+use yii\helpers\Url;
+use yii\web\View;
+use yii\widgets\Pjax;
 
 /**
- * @var yii\web\View $this
- * @var yii\data\ActiveDataProvider $dataProvider
- * @var webvimark\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch $searchModel
+ * @var View $this
+ * @var ActiveDataProvider $dataProvider
+ * @var AuthItemGroupSearch $searchModel
  */
 
 $this->title = UserManagementModule::t('back', 'Permission groups');

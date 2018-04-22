@@ -1,9 +1,9 @@
 <?php
 
-namespace webvimark\modules\UserManagement\components;
+namespace mauztor\modules\UserManagement\components;
 
-use webvimark\modules\UserManagement\models\rbacDB\Route;
-use webvimark\modules\UserManagement\models\User;
+use mauztor\modules\UserManagement\models\rbacDB\Route;
+use mauztor\modules\UserManagement\models\User;
 use yii\base\Action;
 use Yii;
 use yii\base\ActionFilter;

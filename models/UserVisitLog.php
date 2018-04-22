@@ -1,11 +1,13 @@
 <?php
 
-namespace webvimark\modules\UserManagement\models;
+namespace mauztor\modules\UserManagement\models;
 
 use Ikimea\Browser\Browser;
+use mauztor\modules\UserManagement\UserManagementModule;
+use webvimark\components\BaseActiveRecord;
 use webvimark\helpers\LittleBigHelper;
-use webvimark\modules\UserManagement\UserManagementModule;
 use Yii;
+use yii\db\ActiveQuery;
 
 /**
  * This is the model class for table "user_visit_log".
@@ -22,7 +24,7 @@ use Yii;
  *
  * @property User $user
  */
-class UserVisitLog extends \webvimark\components\BaseActiveRecord
+class UserVisitLog extends BaseActiveRecord
 {
 	CONST SESSION_TOKEN = '__visitorToken';
 
@@ -116,7 +118,7 @@ class UserVisitLog extends \webvimark\components\BaseActiveRecord
 	}
 
 	/**
-	* @return \yii\db\ActiveQuery
+	* @return ActiveQuery
 	*/
 	public function getUser()
 	{

@@ -1,19 +1,19 @@
 <?php
+namespace mauztor\modules\UserManagement\components;
+
+use yii\helpers\Html;
+use yii\web\User;
 /**
  * @var $this yii\web\View
  */
 
-namespace webvimark\modules\UserManagement\components;
-
-use webvimark\modules\UserManagement\models\User;
-use yii\helpers\Html;
 
 /**
  * Class GhostHtml
  *
  * Show elements only to those, who can access to them
  *
- * @package webvimark\modules\UserManagement\components
+ * @package mauztor\modules\UserManagement\components
  */
 class GhostHtml extends Html
 {

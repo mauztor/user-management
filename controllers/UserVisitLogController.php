@@ -1,10 +1,10 @@
 <?php
 
-namespace webvimark\modules\UserManagement\controllers;
+namespace mauztor\modules\UserManagement\controllers;
 
 use Yii;
-use webvimark\modules\UserManagement\models\UserVisitLog;
-use webvimark\modules\UserManagement\models\search\UserVisitLogSearch;
+use mauztor\modules\UserManagement\models\UserVisitLog;
+use mauztor\modules\UserManagement\models\search\UserVisitLogSearch;
 use webvimark\components\AdminDefaultController;
 
 /**
@@ -15,12 +15,12 @@ class UserVisitLogController extends AdminDefaultController
 	/**
 	 * @var UserVisitLog
 	 */
-	public $modelClass = 'webvimark\modules\UserManagement\models\UserVisitLog';
+	public $modelClass = 'mauztor\modules\UserManagement\models\UserVisitLog';
 
 	/**
 	 * @var UserVisitLogSearch
 	 */
-	public $modelSearchClass = 'webvimark\modules\UserManagement\models\search\UserVisitLogSearch';
+	public $modelSearchClass = 'mauztor\modules\UserManagement\models\search\UserVisitLogSearch';
 
 	public $enableOnlyActions = ['index', 'view', 'grid-page-size'];
 }

@@ -1,9 +1,10 @@
 <?php
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use mauztor\modules\UserManagement\UserManagementModule;
+use yii\web\View;
 
 /**
- * @var yii\web\View $this
+ * @var View $this
  */
 
 $this->title = UserManagementModule::t('front', 'Password recovery');
