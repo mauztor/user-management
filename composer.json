@@ -1,9 +1,9 @@
 {
-	"name": "webvimark/module-user-management",
+	"name": "mauztor/module-user-management",
 	"description": "User with improved RBAC",
 	"autoload": {
 		"psr-4": {
-			"webvimark\\modules\\UserManagement\\": ""
+			"mauztor\\modules\\UserManagement\\": ""
 		}
 	},
 	"require": {
